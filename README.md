@@ -14,3 +14,7 @@ I try to keep it simple but functional.
 # Roadmap
 - Create a Nix package
 - Properly customize shortcuts
+# Fix
+- Fix bufferline command not found
+- Fix gitsigns not showing up
+- Cusotmise Lualine

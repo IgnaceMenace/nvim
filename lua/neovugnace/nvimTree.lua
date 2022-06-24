@@ -24,6 +24,7 @@ vim.api.nvim_create_autocmd("BufEnter", {
 
 nvim_tree.setup {
     renderer = {
+        icons = {
         glyphs = {
           default = "",
           symlink = "",
@@ -44,7 +45,8 @@ nvim_tree.setup {
             symlink = "",
           },
         }
-    },
+      },
+  },
   disable_netrw = true,
   hijack_netrw = true,
   open_on_setup = false,
